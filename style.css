@@ -1,0 +1,50 @@
+/* Stylesheet */
+
+/* Import Google Font */
+  @import url("https://use.typekit.net/mwz7vgw.css");
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+  background-position: center; 
+}
+
+/* Apply Font */
+main {
+font-family: shlop, sans-serif;
+font-weight: 400;
+font-style: normal;
+  font-size: 7vmin;
+  text-align: center;
+  color: white;
+   text-shadow: 2px 2px black;
+  padding-left: .5em;
+  padding-right: .5em;
+  
+  /* Add contrast to text */
+  background-color: rgba(225, 84, 0, 0.55);
+  
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.svg {
+  scale: .7;
+  margin: 20px;
+}
